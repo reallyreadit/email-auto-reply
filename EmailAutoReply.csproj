@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>EmailAutoReply</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Amazon.Lambda.Core" Version="2.1.0" />
+    <PackageReference Include="Amazon.Lambda.Serialization.SystemTextJson" Version="2.3.0" />
+    <PackageReference Include="AWSSDK.Core" Version="3.7.12.4" />
+    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.3.52" />
+    <PackageReference Include="AWSSDK.SimpleEmail" Version="3.7.0.176" />
+    <PackageReference Include="MimeKitLite" Version="3.3.0" />
+  </ItemGroup>
+
+</Project>
